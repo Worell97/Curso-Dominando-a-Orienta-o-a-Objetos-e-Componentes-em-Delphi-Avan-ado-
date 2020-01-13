@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/01/08 17:47:07.000.074,=C:\Users\oscar.filho\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/01/08 18:47:02.000.763,=C:\Users\oscar.filho\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/01/08 18:48:11.000.408,C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 19\APP\Unit1.pas=C:\Users\oscar.filho\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/01/08 18:48:11.000.408,C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 19\APP\Unit1.dfm=C:\Users\oscar.filho\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2020/01/08 18:48:14.000.299,C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 19\APP\Project1.dproj=C:\Users\oscar.filho\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/01/08 18:50:48.000.271,C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 19\APP\uFrmPrincipal.dfm=C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 19\APP\Unit1.dfm</Transaction>
+    <Transaction>2020/01/08 18:50:48.000.271,C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 19\APP\uFrmPrincipal.pas=C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 19\APP\Unit1.pas</Transaction>
+    <Transaction>2020/01/08 18:51:06.000.518,C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 19\APP\uFrmMain.pas=C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 19\APP\uFrmPrincipal.pas</Transaction>
+    <Transaction>2020/01/08 18:51:06.000.518,C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 19\APP\uFrmMain.dfm=C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 19\APP\uFrmPrincipal.dfm</Transaction>
+    <Transaction>2020/01/10 15:52:20.000.212,=C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 19\APP\Unit2.pas</Transaction>
+    <Transaction>2020/01/10 15:52:25.000.242,C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 19\APP\uFrmMain.pas=</Transaction>
+    <Transaction>2020/01/10 15:53:06.000.506,C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 19\APP\uFrmMain.dfm=C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 19\APP\Unit2.dfm</Transaction>
+    <Transaction>2020/01/10 15:53:06.000.506,C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 19\APP\uFrmMain.pas=C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 19\APP\Unit2.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="uFrmMain.pas"/>
+    <File Path="uFrmMain.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>
