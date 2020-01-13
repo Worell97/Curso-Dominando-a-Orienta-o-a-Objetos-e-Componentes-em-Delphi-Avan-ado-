@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2020/01/08 12:49:03.831,=C:\Users\oscar.filho\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/01/08 12:49:31.248,C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 14\Unit1.dfm=C:\Users\oscar.filho\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2020/01/08 12:49:31.248,C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 14\Unit1.pas=C:\Users\oscar.filho\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/01/08 12:49:33.953,C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 14\Project1.dproj=C:\Users\oscar.filho\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/01/08 12:49:48.117,=C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 14\Unit2.pas</Transaction>
+    <Transaction>2020/01/08 12:49:58.514,C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 14\uModel.pas=C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 14\Unit2.pas</Transaction>
+    <Transaction>2020/01/08 15:00:35.070,=C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 14\ModelSupport_Project1\default.txaPackage</Transaction>
+    <Transaction>2020/01/08 15:00:37.080,=C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 14\ModelSupport_Project1\default.txvpck</Transaction>
+    <Transaction>2020/01/08 15:00:39.370,=C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 14\ModelSupport_Project1\Project1\default.txvpck</Transaction>
+    <Transaction>2020/01/08 15:00:42.223,=C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 14\ModelSupport_Project1\uModel\default.txvpck</Transaction>
+    <Transaction>2020/01/08 15:02:36.400,=C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 14\ModelSupport_Project1\Unit1\default.txvpck</Transaction>
+    <Transaction>2020/01/08 15:04:56.126,=C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 14\ModelSupport_Project1\Unit1\default.txaPackage</Transaction>
+    <Transaction>2020/01/08 15:04:59.954,=C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 14\ModelSupport_Project1\uModel\default.txaPackage</Transaction>
+    <Transaction>2020/01/08 15:19:34.375,=C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 14\ModelSupport_Project1\Class Diagram.txvcls</Transaction>
+    <Transaction>2020/01/08 15:20:00.836,c:\users\oscar.filho\onedrive\curso dominando a orientação a objetos e componentes em delphi (avançado)\poo - 14\modelsupport_project1\class diagram.txvcls=</Transaction>
+    <Transaction>2020/01/08 15:21:03.920,=C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 14\ModelSupport_Project1\Use Case Diagram1.txvuse</Transaction>
+    <Transaction>2020/01/08 15:21:16.956,c:\users\oscar.filho\onedrive\curso dominando a orientação a objetos e componentes em delphi (avançado)\poo - 14\modelsupport_project1\use case diagram1.txvuse=</Transaction>
+    <Transaction>2020/01/08 15:21:16.987,=C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 14\ModelSupport_Project1\Exemplo1.txvuse</Transaction>
+  </Transactions>
+</BorlandProject>

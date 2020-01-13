@@ -1,0 +1,140 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 354
+  ClientWidth = 469
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object BitBtn1: TBitBtn
+    Left = 176
+    Top = 304
+    Width = 75
+    Height = 25
+    Caption = 'Limpar'
+    TabOrder = 0
+    OnClick = BitBtn1Click
+  end
+  object Edit1: TEdit
+    Left = 8
+    Top = 8
+    Width = 121
+    Height = 21
+    TabOrder = 1
+    Text = 'Edit1'
+  end
+  object Edit2: TEdit
+    Left = 8
+    Top = 33
+    Width = 121
+    Height = 21
+    TabOrder = 2
+    Text = 'Edit1'
+  end
+  object Edit3: TEdit
+    Left = 8
+    Top = 60
+    Width = 121
+    Height = 21
+    TabOrder = 3
+    Text = 'Edit1'
+  end
+  object Edit4: TEdit
+    Left = 8
+    Top = 87
+    Width = 121
+    Height = 21
+    TabOrder = 4
+    Text = 'Edit1'
+  end
+  object Edit5: TEdit
+    Left = 8
+    Top = 114
+    Width = 121
+    Height = 21
+    TabOrder = 5
+    Text = 'Edit1'
+  end
+  object Edit6: TEdit
+    Left = 8
+    Top = 141
+    Width = 121
+    Height = 21
+    TabOrder = 6
+    Text = 'Edit1'
+  end
+  object Edit7: TEdit
+    Left = 8
+    Top = 168
+    Width = 121
+    Height = 21
+    TabOrder = 7
+    Text = 'Edit1'
+  end
+  object Memo1: TMemo
+    Left = 135
+    Top = 8
+    Width = 106
+    Height = 57
+    Lines.Strings = (
+      'Memo1')
+    TabOrder = 8
+  end
+  object Memo2: TMemo
+    Left = 135
+    Top = 69
+    Width = 106
+    Height = 57
+    Lines.Strings = (
+      'Memo1')
+    TabOrder = 9
+  end
+  object Memo3: TMemo
+    Left = 135
+    Top = 132
+    Width = 106
+    Height = 57
+    Lines.Strings = (
+      'Memo1')
+    TabOrder = 10
+  end
+  object ListBox1: TListBox
+    Left = 255
+    Top = 7
+    Width = 82
+    Height = 41
+    ItemHeight = 13
+    TabOrder = 11
+  end
+  object ListBox2: TListBox
+    Left = 255
+    Top = 54
+    Width = 82
+    Height = 41
+    ItemHeight = 13
+    TabOrder = 12
+  end
+  object ListBox3: TListBox
+    Left = 255
+    Top = 101
+    Width = 82
+    Height = 41
+    ItemHeight = 13
+    TabOrder = 13
+  end
+  object ListBox4: TListBox
+    Left = 255
+    Top = 148
+    Width = 82
+    Height = 41
+    ItemHeight = 13
+    TabOrder = 14
+  end
+end

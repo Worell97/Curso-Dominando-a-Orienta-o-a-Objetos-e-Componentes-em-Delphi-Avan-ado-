@@ -1,0 +1,22 @@
+﻿unit UCliente;
+
+interface
+
+	TClieten = class
+  private
+    { private declarations }
+  protected
+    { protected declarations }
+  public
+    { public declarations }
+
+  published
+    { published declarations }
+
+    property Nome: String read GetNome write SetNome;
+    property Email: String read GetEmails write SetEmail;
+  end;
+
+implementation
+
+end.

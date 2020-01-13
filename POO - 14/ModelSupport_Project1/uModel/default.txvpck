@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="ahu0auvc3rs_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Project1:uModel.TPessoaFisica">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,99,118" />
+      <reference referencedUin="delphi:e_field:src:Project1:uModel.TPessoaFisica.FCPF" />
+      <reference referencedUin="delphi:e_method:src:Project1:uModel.TPessoaFisica.SetCPF(System.string)" />
+      <reference referencedUin="delphi:e_property:src:Project1:uModel.TPessoaFisica.CPF" />
+      <reference referencedUin="delphi:l_gnt:src:Project1:uModel.TPessoaFisica:uModel.TPessoa">
+        <property name="sourceAnchor" value="109,69" />
+        <property name="targetAnchor" value="128,69" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:uModel.TPessoa">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="128,1,140,163" />
+      <reference referencedUin="delphi:e_field:src:Project1:uModel.TPessoa.FNome" />
+      <reference referencedUin="delphi:e_field:src:Project1:uModel.TPessoa.FEndereco" />
+      <reference referencedUin="delphi:e_method:src:Project1:uModel.TPessoa.SetNome(System.string)" />
+      <reference referencedUin="delphi:e_method:src:Project1:uModel.TPessoa.SetEndereco(uModel.TEndereco)" />
+      <reference referencedUin="delphi:e_property:src:Project1:uModel.TPessoa.Nome" />
+      <reference referencedUin="delphi:e_property:src:Project1:uModel.TPessoa.Endereco" />
+      <reference referencedUin="delphi:l_ast:src:Project1:uModel.TPessoa.FEndereco">
+        <property name="sourceAnchor" value="268,151" />
+        <property name="targetAnchor" value="306,151" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:Project1:uModel.TPessoa.Endereco">
+        <property name="sourceAnchor" value="268,143" />
+        <property name="targetAnchor" value="306,143" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:uModel.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:uModel.TFornecedor">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="287,1,139,118" />
+      <reference referencedUin="delphi:e_field:src:Project1:uModel.TFornecedor.FPrazoentrega" />
+      <reference referencedUin="delphi:e_method:src:Project1:uModel.TFornecedor.SetPrazoentrega(System.Integer)" />
+      <reference referencedUin="delphi:e_property:src:Project1:uModel.TFornecedor.Prazoentrega" />
+      <reference referencedUin="delphi:l_gnt:src:Project1:uModel.TFornecedor:uModel.TPessoaJuridica">
+        <property name="sourceAnchor" value="292,119" />
+        <property name="targetAnchor" value="292,202" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:uModel.TEndereco">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="306,138,117,253" />
+      <reference referencedUin="delphi:e_field:src:Project1:uModel.TEndereco.FLogradouro" />
+      <reference referencedUin="delphi:e_field:src:Project1:uModel.TEndereco.FBairro" />
+      <reference referencedUin="delphi:e_field:src:Project1:uModel.TEndereco.FCEP" />
+      <reference referencedUin="delphi:e_field:src:Project1:uModel.TEndereco.FCidade" />
+      <reference referencedUin="delphi:e_method:src:Project1:uModel.TEndereco.SetBairro(System.string)" />
+      <reference referencedUin="delphi:e_method:src:Project1:uModel.TEndereco.SetCEP(System.string)" />
+      <reference referencedUin="delphi:e_method:src:Project1:uModel.TEndereco.SetCidade(System.string)" />
+      <reference referencedUin="delphi:e_method:src:Project1:uModel.TEndereco.SetLogradouro(System.string)" />
+      <reference referencedUin="delphi:e_property:src:Project1:uModel.TEndereco.Logradouro" />
+      <reference referencedUin="delphi:e_property:src:Project1:uModel.TEndereco.Bairro" />
+      <reference referencedUin="delphi:e_property:src:Project1:uModel.TEndereco.Cidade" />
+      <reference referencedUin="delphi:e_property:src:Project1:uModel.TEndereco.CEP" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:uModel.TPessoaJuridica">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="187,202,110,118" />
+      <reference referencedUin="delphi:e_field:src:Project1:uModel.TPessoaJuridica.FCNPJ" />
+      <reference referencedUin="delphi:e_method:src:Project1:uModel.TPessoaJuridica.SetCNPJ(System.string)" />
+      <reference referencedUin="delphi:e_property:src:Project1:uModel.TPessoaJuridica.CNPJ" />
+      <reference referencedUin="delphi:l_gnt:src:Project1:uModel.TPessoaJuridica:uModel.TPessoa">
+        <property name="sourceAnchor" value="227,202" />
+        <property name="targetAnchor" value="227,164" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:uModel.TCliete">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="29,147,139,163" />
+      <reference referencedUin="delphi:e_field:src:Project1:uModel.TCliete.FSaldo" />
+      <reference referencedUin="delphi:e_method:src:Project1:uModel.TCliete.SetSaldo(System.Double)" />
+      <reference referencedUin="delphi:e_property:src:Project1:uModel.TCliete.Saldo" />
+      <reference referencedUin="delphi:l_gnt:src:Project1:uModel.TCliete:uModel.TPessoaFisica">
+        <property name="sourceAnchor" value="69,147" />
+        <property name="targetAnchor" value="69,128" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:e_property:src:Project1:uModel.TCliete.LimiteCredito">
+        <property name="bounds" value="46,-86,0,0" />
+      </reference>
+      <reference referencedUin="delphi:e_field:src:Project1:uModel.TCliete.FLimiteCredito" />
+      <reference referencedUin="delphi:e_method:src:Project1:uModel.TCliete.SetLimiteCredito(System.Integer)" />
+    </reference>
+  </view>
+</nodeSet>

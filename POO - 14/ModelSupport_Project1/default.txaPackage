@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <node uin="9dz2jfldmosy16j8f_n">
+    <property name="$metaclass" value="System Boundary" />
+    <property name="$name" value="Sistema de Cadastro" />
+    <node uin="uwbl5blm0zf_n">
+      <property name="$metaclass" value="Use Case" />
+      <property name="$name" value="Incluir" />
+      <link uin="rbsehgg90si_l">
+        <property name="$metaclass" value="Association Link" />
+        <property name="$name" value="Association Link1" />
+        <property name="@stereotype" value="communicate" />
+        <participant referencedUin="design:node:::uwbl5blm0zf_n:9dz2jfldmosy16j8f_n" role="Client" />
+        <participant referencedUin="design:node:::en5no60lbnl_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="l28cg4l2qqm_n">
+      <property name="$metaclass" value="Use Case" />
+      <property name="$name" value="Excluir" />
+      <link uin="dzohnjp42jk_l">
+        <property name="$metaclass" value="Association Link" />
+        <property name="$name" value="Association Link1" />
+        <property name="@stereotype" value="communicate" />
+        <participant referencedUin="design:node:::l28cg4l2qqm_n:9dz2jfldmosy16j8f_n" role="Client" />
+        <participant referencedUin="design:node:::en5no60lbnl_n" role="Supplier" />
+      </link>
+      <link uin="1otrrku9j0g_l">
+        <property name="$metaclass" value="Includes Link" />
+        <property name="$name" value="Includes Link1" />
+        <participant referencedUin="design:node:::l28cg4l2qqm_n:9dz2jfldmosy16j8f_n" role="Client" />
+        <participant referencedUin="design:node:::vc88nrmcabr_n:9dz2jfldmosy16j8f_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="upogkvsbwur_n">
+      <property name="$metaclass" value="Use Case" />
+      <property name="$name" value="Alterar" />
+      <link uin="je8cvlvuq6i_l">
+        <property name="$metaclass" value="Association Link" />
+        <property name="$name" value="Association Link1" />
+        <property name="@stereotype" value="communicate" />
+        <participant referencedUin="design:node:::upogkvsbwur_n:9dz2jfldmosy16j8f_n" role="Client" />
+        <participant referencedUin="design:node:::mggax15szvq_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="vc88nrmcabr_n">
+      <property name="$metaclass" value="Use Case" />
+      <property name="$name" value="GerarLog" />
+    </node>
+  </node>
+  <node uin="mggax15szvq_n">
+    <property name="$metaclass" value="Actor" />
+    <property name="$name" value="Vendedor" />
+    <link uin="pqgr34fpj7h_l">
+      <property name="$metaclass" value="Association Link" />
+      <property name="$name" value="Association Link1" />
+      <property name="@stereotype" value="communicate" />
+      <participant referencedUin="design:node:::mggax15szvq_n" role="Client" />
+      <participant referencedUin="design:node:::uwbl5blm0zf_n:9dz2jfldmosy16j8f_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="en5no60lbnl_n">
+    <property name="$metaclass" value="Actor" />
+    <property name="$name" value="Gerente" />
+    <link uin="4qlxhzn084n_l">
+      <property name="$metaclass" value="Association Link" />
+      <property name="$name" value="Association Link1" />
+      <property name="@stereotype" value="communicate" />
+      <participant referencedUin="design:node:::en5no60lbnl_n" role="Client" />
+      <participant referencedUin="design:node:::upogkvsbwur_n:9dz2jfldmosy16j8f_n" role="Supplier" />
+    </link>
+  </node>
+</nodeSet>

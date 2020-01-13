@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="l06quwlxgyq_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::0mst3d5rxuo_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,101,134" />
+      <reference referencedUin="delphi:e_class:src:Project1:Project1.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::wo0p2zacsfp_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="130,1,100,151" />
+      <reference referencedUin="delphi:e_class:src:Project1:Unit1.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:Project1:Unit1.TForm1" />
+    </reference>
+    <reference referencedUin="design:view:::35ke0u88pt59rki4i_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="@__package_fqn" value="uModel" />
+      <property name="bounds" value="280,0,100,166" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_class:src:Project1:uModel.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:Project1:uModel.TUsuario" />
+      <reference referencedUin="delphi:e_class:src:Project1:uModel.TConexao" />
+    </reference>
+    <reference referencedUin="design:view:::6f4j0z5yekl_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="@__package_fqn" value="uObserver" />
+      <property name="bounds" value="420,0,113,198" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_class:src:Project1:uObserver.IObserver" />
+      <reference referencedUin="delphi:e_class:src:Project1:uObserver.TObservable" />
+      <reference referencedUin="delphi:e_class:src:Project1:uObserver.TCotacao" />
+      <reference referencedUin="delphi:e_class:src:Project1:uObserver.TProduto" />
+      <reference referencedUin="delphi:e_class:src:Project1:uObserver.@unitclass" />
+    </reference>
+  </view>
+</nodeSet>
