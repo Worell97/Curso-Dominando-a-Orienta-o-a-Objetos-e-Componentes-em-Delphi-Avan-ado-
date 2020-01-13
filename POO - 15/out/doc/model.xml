@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Model name="Project1" id="Project1" language="delphi">
+  <Diagram name="default" id="ID=8" metaclass="Namespace Diagram" file="default.txvpck.html">
+    <Property name="defaultDiagram">true</Property>
+    <DiagramReference id="ID=12" element="ID=7" metaclass="Namespace">
+      <Property name="Gradient Mode">Vertical</Property>
+      <Property name="Gradient color 1">255, 255, 255</Property>
+      <Property name="Color Area">Whole Shape</Property>
+      <Property name="Gradient color 2">255, 255, 255</Property>
+      <Property name="Gradient ON">False</Property>
+      <Property name="bounds">10,10,111,144</Property>
+      <DiagramReference id="ID=18" element="ID=16" metaclass="Module" />
+    </DiagramReference>
+    <DiagramReference id="ID=13" element="ID=4" metaclass="Namespace">
+      <Property name="Gradient Mode">Vertical</Property>
+      <Property name="Gradient color 1">255, 255, 255</Property>
+      <Property name="Color Area">Whole Shape</Property>
+      <Property name="Gradient color 2">255, 255, 255</Property>
+      <Property name="Gradient ON">False</Property>
+      <Property name="bounds">130,1,230,152</Property>
+      <DiagramReference id="ID=22" element="ID=20" metaclass="Module" />
+      <DiagramReference id="ID=23" element="ID=19" metaclass="Class">
+        <Property name="Extends">Vcl.Forms.TForm</Property>
+        <Property name="Persistent">False</Property>
+        <Property name="Sealed">False</Property>
+        <Property name="Abstract">False</Property>
+      </DiagramReference>
+    </DiagramReference>
+    <DiagramReference id="ID=14" element="ID=5" metaclass="Namespace">
+      <Property name="Gradient Mode">Vertical</Property>
+      <Property name="Gradient color 1">255, 255, 255</Property>
+      <Property name="Color Area">Whole Shape</Property>
+      <Property name="Gradient color 2">255, 255, 255</Property>
+      <Property name="Gradient ON">False</Property>
+      <Property name="bounds">280,0,380,166</Property>
+      <DiagramReference id="ID=34" element="ID=31" metaclass="Module" />
+      <DiagramReference id="ID=35" element="ID=29" metaclass="Class">
+        <Property name="Persistent">False</Property>
+        <Property name="Sealed">False</Property>
+        <Property name="Abstract">False</Property>
+      </DiagramReference>
+      <DiagramReference id="ID=36" element="ID=30" metaclass="Class">
+        <Property name="Persistent">False</Property>
+        <Property name="Sealed">False</Property>
+        <Property name="Abstract">False</Property>
+      </DiagramReference>
+    </DiagramReference>
+    <DiagramReference id="ID=15" element="ID=6" metaclass="Namespace">
+      <Property name="Gradient Mode">Vertical</Property>
+      <Property name="Gradient color 1">255, 255, 255</Property>
+      <Property name="Color Area">Whole Shape</Property>
+      <Property name="Gradient color 2">255, 255, 255</Property>
+      <Property name="Gradient ON">False</Property>
+      <Property name="bounds">420,0,533,198</Property>
+      <DiagramReference id="ID=53" element="ID=47" metaclass="Interface">
+        <Property name="Persistent">False</Property>
+      </DiagramReference>
+      <DiagramReference id="ID=54" element="ID=48" metaclass="Class">
+        <Property name="Author">Oscar Worell</Property>
+        <Property name="Descricao">Esta classe é a classe basica de teste</Property>
+        <Property name="Persistent">False</Property>
+        <Property name="Sealed">False</Property>
+        <Property name="Abstract">False</Property>
+      </DiagramReference>
+      <DiagramReference id="ID=55" element="ID=46" metaclass="Class">
+        <Property name="Extends">uObserver.TObservable</Property>
+        <Property name="Persistent">False</Property>
+        <Property name="Sealed">False</Property>
+        <Property name="Abstract">False</Property>
+      </DiagramReference>
+      <DiagramReference id="ID=56" element="ID=49" metaclass="Class">
+        <Property name="Extends">System.TInterfacedObject</Property>
+        <Property name="Implements">uObserver.IObserver</Property>
+        <Property name="Persistent">False</Property>
+        <Property name="Sealed">False</Property>
+        <Property name="Abstract">False</Property>
+      </DiagramReference>
+      <DiagramReference id="ID=57" element="ID=50" metaclass="Module" />
+    </DiagramReference>
+  </Diagram>
+  <Package name="Project1" id="ID=7">
+    <Diagram name="Project1" id="ID=17" metaclass="Namespace Diagram" file="default.txvpck.html">
+      <Property name="defaultDiagram">true</Property>
+      <DiagramReference id="ID=99" element="ID=16" metaclass="Module">
+        <Property name="Gradient color 1">255, 255, 255</Property>
+        <Property name="Color Area">Whole Shape</Property>
+        <Property name="Gradient Mode">Vertical</Property>
+        <Property name="Gradient ON">False</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+      </DiagramReference>
+    </Diagram>
+    <Classifier name="globals Project1" id="ID=16" type="Module" visibility="public">
+      <Uses />
+    </Classifier>
+  </Package>
+  <Package name="Unit1" id="ID=4">
+    <Diagram name="Unit1" id="ID=21" metaclass="Namespace Diagram" file="default.txvpck.html">
+      <Property name="defaultDiagram">true</Property>
+      <DiagramReference id="ID=100" element="ID=19" metaclass="Class">
+        <Property name="Gradient Mode">Vertical</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+        <Property name="Gradient color 1">255, 255, 255</Property>
+        <Property name="Extends">Vcl.Forms.TForm</Property>
+        <Property name="Color Area">Whole Shape</Property>
+        <Property name="Persistent">False</Property>
+        <Property name="Sealed">False</Property>
+        <Property name="Abstract">False</Property>
+        <Property name="Gradient ON">False</Property>
+      </DiagramReference>
+      <DiagramReference id="ID=101" element="ID=20" metaclass="Module">
+        <Property name="Gradient color 1">255, 255, 255</Property>
+        <Property name="Color Area">Whole Shape</Property>
+        <Property name="Gradient Mode">Vertical</Property>
+        <Property name="Gradient ON">False</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+        <DiagramReference id="ID=103" element="ID=25" metaclass="Association Link">
+          <Property name="Client">Form1</Property>
+          <Property name="Type">association</Property>
+          <Property name="Supplier">TForm1</Property>
+          <Property name="Directed">False</Property>
+        </DiagramReference>
+      </DiagramReference>
+    </Diagram>
+    <Classifier name="TForm1" id="ID=19" type="Class" visibility="public">
+      <Property name="Extends">Vcl.Forms.TForm</Property>
+      <Property name="Persistent">False</Property>
+      <Property name="Sealed">False</Property>
+      <Property name="Abstract">False</Property>
+      <Extends idref="ID=27" refFN="Vcl.Forms.TForm" doom="true" />
+      <Uses>
+        <Use element="ID=24" type="field_type" />
+      </Uses>
+    </Classifier>
+    <Classifier name="globals Unit1" id="ID=20" type="Module" visibility="public">
+      <Link targetName="Form1" id="ID=25" metaclass="Association Link" idref="ID=19">
+        <Property name="Client">Form1</Property>
+        <Property name="Type">association</Property>
+        <Property name="Supplier">TForm1</Property>
+        <Property name="Directed">False</Property>
+      </Link>
+      <Uses />
+      <Field fieldType="Field" elementName="Form1" id="ID=24" typeref="ID=19" type="TForm1" isPrimitive="false" visibility="internal">
+        <Property name="Const">False</Property>
+        <Property name="Type">TForm1</Property>
+      </Field>
+    </Classifier>
+  </Package>
+  <Package name="uModel" id="ID=5">
+    <DesignElement name="Singleton" id="ID=32" metaclass="Pattern">
+      <Property name="Participants">Singleton: TConexao</Property>
+      <Link targetName="TConexao" id="ID=117" metaclass="" idref="ID=30">
+        <Property name="Suplier Role">_Singleton</Property>
+      </Link>
+    </DesignElement>
+    <Diagram name="uModel" id="ID=33" metaclass="Namespace Diagram" file="default.txvpck.html">
+      <Property name="defaultDiagram">true</Property>
+      <DiagramReference id="ID=104" element="ID=31" metaclass="Module">
+        <Property name="Gradient color 1">255, 255, 255</Property>
+        <Property name="Color Area">Whole Shape</Property>
+        <Property name="Gradient Mode">Vertical</Property>
+        <Property name="Gradient ON">False</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+      </DiagramReference>
+      <DiagramReference id="ID=105" element="ID=29" metaclass="Class">
+        <Property name="Gradient Mode">Vertical</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+        <Property name="Gradient color 1">255, 255, 255</Property>
+        <Property name="Color Area">Whole Shape</Property>
+        <Property name="Persistent">False</Property>
+        <Property name="Sealed">False</Property>
+        <Property name="Abstract">False</Property>
+        <Property name="Gradient ON">False</Property>
+        <Property name="bounds">10,10,157,141</Property>
+        <DiagramReference id="ID=112" element="ID=41" metaclass="Association Link">
+          <Property name="Client">FInstance</Property>
+          <Property name="Type">association</Property>
+          <Property name="Supplier">TUsuario</Property>
+          <Property name="Directed">False</Property>
+        </DiagramReference>
+      </DiagramReference>
+      <DiagramReference id="ID=106" element="ID=30" metaclass="Class">
+        <Property name="Gradient Mode">Vertical</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+        <Property name="Gradient color 1">255, 255, 255</Property>
+        <Property name="Color Area">Whole Shape</Property>
+        <Property name="Persistent">False</Property>
+        <Property name="Sealed">False</Property>
+        <Property name="Abstract">False</Property>
+        <Property name="Gradient ON">False</Property>
+        <Property name="bounds">280,20,433,136</Property>
+        <DiagramReference id="ID=116" element="ID=45" metaclass="Association Link">
+          <Property name="Client">FInstance</Property>
+          <Property name="Type">association</Property>
+          <Property name="Supplier">TConexao</Property>
+          <Property name="Directed">False</Property>
+        </DiagramReference>
+      </DiagramReference>
+      <DiagramReference id="ID=107" element="ID=32" metaclass="Pattern">
+        <Property name="Participants">Singleton: TConexao</Property>
+        <Property name="bounds">520,40,702,119</Property>
+        <DiagramReference id="ID=118" element="ID=117" metaclass="">
+          <Property name="Suplier Role">_Singleton</Property>
+        </DiagramReference>
+      </DiagramReference>
+    </Diagram>
+    <Classifier name="globals uModel" id="ID=31" type="Module" visibility="public">
+      <Uses />
+    </Classifier>
+    <Classifier name="TUsuario" id="ID=29" type="Class" visibility="public">
+      <Property name="Persistent">False</Property>
+      <Property name="Sealed">False</Property>
+      <Property name="Abstract">False</Property>
+      <Method id="ID=38" name="CreatePrivate" isConstructor="true" visibility="internal">
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Abstract">False</Property>
+        <Property name="Virtual">False</Property>
+      </Method>
+      <Method id="ID=39" name="Create" isConstructor="true" visibility="public">
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Abstract">False</Property>
+        <Property name="Virtual">False</Property>
+      </Method>
+      <Method id="ID=40" name="GetInstance" visibility="public">
+        <Property name="Returns">TUsuario</Property>
+        <Property name="Class">True</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Abstract">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=40" typeref="ID=29" type="TUsuario" isPrimitive="false" />
+      </Method>
+      <Link targetName="FInstance" id="ID=41" metaclass="Association Link" idref="ID=29">
+        <Property name="Client">FInstance</Property>
+        <Property name="Type">association</Property>
+        <Property name="Supplier">TUsuario</Property>
+        <Property name="Directed">False</Property>
+      </Link>
+      <Uses>
+        <Use element="ID=37" type="field_type" />
+        <Use element="ID=40" type="method_return_type" />
+      </Uses>
+      <Field fieldType="Field" elementName="FInstance" id="ID=37" typeref="ID=29" type="TUsuario" isPrimitive="false" visibility="internal">
+        <Property name="Class">True</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">TUsuario</Property>
+      </Field>
+    </Classifier>
+    <Classifier name="TConexao" id="ID=30" type="Class" visibility="public">
+      <Property name="Persistent">False</Property>
+      <Property name="Sealed">False</Property>
+      <Property name="Abstract">False</Property>
+      <Method id="ID=44" name="GetInstance" visibility="public">
+        <Property name="Returns">TConexao</Property>
+        <Property name="Class">True</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Abstract">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=44" typeref="ID=30" type="TConexao" isPrimitive="false" />
+      </Method>
+      <Link targetName="FInstance" id="ID=45" metaclass="Association Link" idref="ID=30">
+        <Property name="Client">FInstance</Property>
+        <Property name="Type">association</Property>
+        <Property name="Supplier">TConexao</Property>
+        <Property name="Directed">False</Property>
+      </Link>
+      <Uses>
+        <Use element="ID=44" type="method_return_type" />
+      </Uses>
+    </Classifier>
+  </Package>
+  <Package name="uObserver" id="ID=6">
+    <Classifier name="globals uObserver" id="ID=50" type="Module" visibility="public">
+      <Uses />
+    </Classifier>
+    <DesignElement name="Observer" id="ID=51" metaclass="Pattern">
+      <Property name="Participants">Subject: TObservable&lt;br /&gt;Observer: IObserver&lt;br /&gt;ConcreteSubject: TCotacao&lt;br /&gt;ConcreteObserver: TProduto</Property>
+      <Link targetName="TObservable" id="ID=84" metaclass="" idref="ID=48">
+        <Property name="Suplier Role">_Subject</Property>
+      </Link>
+      <Link targetName="IObserver" id="ID=85" metaclass="" idref="ID=47">
+        <Property name="Suplier Role">_Observer</Property>
+      </Link>
+      <Link targetName="TCotacao" id="ID=86" metaclass="" idref="ID=46">
+        <Property name="Suplier Role">_ConcreteSubject</Property>
+      </Link>
+      <Link targetName="TProduto" id="ID=87" metaclass="" idref="ID=49">
+        <Property name="Suplier Role">_ConcreteObserver</Property>
+      </Link>
+    </DesignElement>
+    <Diagram name="uObserver" id="ID=52" metaclass="Namespace Diagram" file="default.txvpck.html">
+      <Property name="defaultDiagram">true</Property>
+      <DiagramReference id="ID=72" element="ID=47" metaclass="Interface">
+        <Property name="Gradient Mode">Vertical</Property>
+        <Property name="Gradient color 1">255, 255, 255</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+        <Property name="Circle view">False</Property>
+        <Property name="Color Area">Whole Shape</Property>
+        <Property name="Persistent">False</Property>
+        <Property name="Gradient ON">False</Property>
+        <Property name="bounds">384,201,470,282</Property>
+      </DiagramReference>
+      <DiagramReference id="ID=73" element="ID=48" metaclass="Class">
+        <Property name="Gradient Mode">Vertical</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+        <Property name="Gradient color 1">255, 255, 255</Property>
+        <Property name="Author">Oscar Worell</Property>
+        <Property name="Color Area">Whole Shape</Property>
+        <Property name="Descricao">Esta classe é a classe basica de teste</Property>
+        <Property name="Persistent">False</Property>
+        <Property name="Sealed">False</Property>
+        <Property name="Abstract">False</Property>
+        <Property name="Gradient ON">False</Property>
+        <Property name="bounds">564,201,679,347</Property>
+      </DiagramReference>
+      <DiagramReference id="ID=74" element="ID=51" metaclass="Pattern">
+        <Property name="Participants">Subject: TObservable&lt;br /&gt;Observer: IObserver&lt;br /&gt;ConcreteSubject: TCotacao&lt;br /&gt;ConcreteObserver: TProduto</Property>
+        <Property name="bounds">564,381,807,516</Property>
+        <DiagramReference id="ID=88" element="ID=84" metaclass="">
+          <Property name="Suplier Role">_Subject</Property>
+        </DiagramReference>
+        <DiagramReference id="ID=89" element="ID=85" metaclass="">
+          <Property name="Suplier Role">_Observer</Property>
+        </DiagramReference>
+        <DiagramReference id="ID=90" element="ID=86" metaclass="">
+          <Property name="Suplier Role">_ConcreteSubject</Property>
+        </DiagramReference>
+        <DiagramReference id="ID=91" element="ID=87" metaclass="">
+          <Property name="Suplier Role">_ConcreteObserver</Property>
+        </DiagramReference>
+      </DiagramReference>
+      <DiagramReference id="ID=75" element="ID=46" metaclass="Class">
+        <Property name="Gradient Mode">Vertical</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+        <Property name="Gradient color 1">255, 255, 255</Property>
+        <Property name="Extends">uObserver.TObservable</Property>
+        <Property name="Color Area">Whole Shape</Property>
+        <Property name="Persistent">False</Property>
+        <Property name="Sealed">False</Property>
+        <Property name="Abstract">False</Property>
+        <Property name="Gradient ON">False</Property>
+        <Property name="bounds">864,301,950,368</Property>
+        <DiagramReference id="ID=96" element="ID=67" metaclass="Generalization Link">
+          <Property name="Client">TCotacao</Property>
+          <Property name="Supplier">TObservable</Property>
+        </DiagramReference>
+      </DiagramReference>
+      <DiagramReference id="ID=76" element="ID=49" metaclass="Class">
+        <Property name="Gradient Mode">Vertical</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+        <Property name="Gradient color 1">255, 255, 255</Property>
+        <Property name="Extends">System.TInterfacedObject</Property>
+        <Property name="Color Area">Whole Shape</Property>
+        <Property name="Implements">uObserver.IObserver</Property>
+        <Property name="Persistent">False</Property>
+        <Property name="Sealed">False</Property>
+        <Property name="Abstract">False</Property>
+        <Property name="Gradient ON">False</Property>
+        <Property name="bounds">384,401,513,499</Property>
+        <DiagramReference id="ID=98" element="ID=70" metaclass="Implementation Link">
+          <Property name="Client">TProduto</Property>
+          <Property name="Supplier">IObserver</Property>
+        </DiagramReference>
+      </DiagramReference>
+      <DiagramReference id="ID=77" element="ID=50" metaclass="Module">
+        <Property name="Gradient color 1">255, 255, 255</Property>
+        <Property name="Color Area">Whole Shape</Property>
+        <Property name="Gradient Mode">Vertical</Property>
+        <Property name="Gradient ON">False</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+      </DiagramReference>
+    </Diagram>
+    <Classifier name="IObserver" id="ID=47" type="Interface" visibility="public">
+      <Property name="Persistent">False</Property>
+      <Uses>
+        <Use element="ID3=61_43327720" type="parameter_type" />
+        <Use element="ID3=62_19884406" type="parameter_type" />
+      </Uses>
+      <Method id="ID=58" name="Update" isSubroutine="true" visibility="public">
+        <Parameter elementName="ASubject" id="ID3=58_48588170" typeref="ID=48" type="TObservable" isPrimitive="false" />
+        <Property name="Reintroduce">False</Property>
+        <ReturnType id="ID=58" type="" isPrimitive="true" />
+      </Method>
+    </Classifier>
+    <Classifier name="TObservable" id="ID=48" type="Class" visibility="public">
+      <Property name="Author">Oscar Worell</Property>
+      <Property name="Descricao">Esta classe é a classe basica de teste</Property>
+      <Property name="Persistent">False</Property>
+      <Property name="Sealed">False</Property>
+      <Property name="Abstract">False</Property>
+      <Uses>
+        <Use element="ID3=58_48588170" type="parameter_type" />
+        <Use element="ID3=68_24156" type="parameter_type" />
+      </Uses>
+      <Method id="ID=60" name="Create" isConstructor="true" visibility="public">
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Abstract">False</Property>
+        <Property name="Virtual">False</Property>
+      </Method>
+      <Method id="ID=61" name="Attach" isSubroutine="true" visibility="public">
+        <Parameter elementName="AObserver" id="ID3=61_43327720" typeref="ID=47" type="IObserver" isPrimitive="false" />
+        <Property name="Class">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Abstract">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=61" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=62" name="Detach" isSubroutine="true" visibility="public">
+        <Parameter elementName="AObserver" id="ID3=62_19884406" typeref="ID=47" type="IObserver" isPrimitive="false" />
+        <Property name="Class">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Abstract">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=62" type="" isPrimitive="true" />
+      </Method>
+    </Classifier>
+    <Classifier name="TCotacao" id="ID=46" type="Class" visibility="public">
+      <Property name="Extends">uObserver.TObservable</Property>
+      <Property name="Persistent">False</Property>
+      <Property name="Sealed">False</Property>
+      <Property name="Abstract">False</Property>
+      <Link targetName="uObserver.TObservable" id="ID=67" metaclass="Generalization Link" idref="ID=48">
+        <Property name="Client">TCotacao</Property>
+        <Property name="Supplier">TObservable</Property>
+      </Link>
+      <Extends idref="ID=48" refFN="uObserver.TObservable" />
+      <Uses />
+    </Classifier>
+    <Classifier name="TProduto" id="ID=49" type="Class" visibility="public">
+      <Property name="Extends">System.TInterfacedObject</Property>
+      <Property name="Implements">uObserver.IObserver</Property>
+      <Property name="Persistent">False</Property>
+      <Property name="Sealed">False</Property>
+      <Property name="Abstract">False</Property>
+      <Method id="ID=68" name="Update" isSubroutine="true" visibility="public">
+        <Parameter elementName="ASubject" id="ID3=68_24156" typeref="ID=48" type="TObservable" isPrimitive="false" />
+        <Property name="Class">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Abstract">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=68" type="" isPrimitive="true" />
+      </Method>
+      <Link targetName="uObserver.IObserver" id="ID=70" metaclass="Implementation Link" idref="ID=47">
+        <Property name="Client">TProduto</Property>
+        <Property name="Supplier">IObserver</Property>
+      </Link>
+      <Extends idref="ID=69" refFN="System.TInterfacedObject" doom="true" />
+      <Implements idref="ID=47" refFN="uObserver.IObserver" />
+      <Uses />
+    </Classifier>
+  </Package>
+</Model>

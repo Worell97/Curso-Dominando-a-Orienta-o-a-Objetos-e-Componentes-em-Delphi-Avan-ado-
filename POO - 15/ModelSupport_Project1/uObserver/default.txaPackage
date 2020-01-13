@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <node uin="zkaa70k2zan_n">
+    <property name="$metaclass" value="Pattern" />
+    <property name="$name" value="Observer" />
+    <property name="PatternUPID" value="{2004-11-30-7-31-41-360-30711}" />
+    <link uin="adwslb9o9ve_l">
+      <property name="$metaclass" value="DesignPatternLink" />
+      <property name="$name" value="TObservable" />
+      <property name="@supplierRole" value="_Subject" />
+      <participant referencedUin="design:node:::zkaa70k2zan_n" role="Client" />
+      <participant referencedUin="delphi:e_class:src:Project1:uObserver.TObservable" role="Supplier" />
+    </link>
+    <link uin="9d2858uydhs_l">
+      <property name="$metaclass" value="DesignPatternLink" />
+      <property name="$name" value="IObserver" />
+      <property name="@supplierRole" value="_Observer" />
+      <participant referencedUin="design:node:::zkaa70k2zan_n" role="Client" />
+      <participant referencedUin="delphi:e_class:src:Project1:uObserver.IObserver" role="Supplier" />
+    </link>
+    <link uin="0kzzokq03li_l">
+      <property name="$metaclass" value="DesignPatternLink" />
+      <property name="$name" value="TCotacao" />
+      <property name="@supplierRole" value="_ConcreteSubject" />
+      <participant referencedUin="design:node:::zkaa70k2zan_n" role="Client" />
+      <participant referencedUin="delphi:e_class:src:Project1:uObserver.TCotacao" role="Supplier" />
+    </link>
+    <link uin="ykv2u64rv0p_l">
+      <property name="$metaclass" value="DesignPatternLink" />
+      <property name="$name" value="TProduto" />
+      <property name="@supplierRole" value="_ConcreteObserver" />
+      <participant referencedUin="design:node:::zkaa70k2zan_n" role="Client" />
+      <participant referencedUin="delphi:e_class:src:Project1:uObserver.TProduto" role="Supplier" />
+    </link>
+  </node>
+</nodeSet>

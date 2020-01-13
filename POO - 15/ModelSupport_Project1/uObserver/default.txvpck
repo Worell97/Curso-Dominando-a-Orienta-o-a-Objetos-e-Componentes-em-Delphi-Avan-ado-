@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="6f4j0z5yekl_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Project1:uObserver.IObserver">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="384,201,86,81" />
+      <reference referencedUin="delphi:e_method:src:Project1:uObserver.IObserver.Update(uObserver.TObservable)">
+        <property name="bounds" value="384,201,0,0" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:uObserver.TObservable">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="564,201,115,146" />
+      <reference referencedUin="delphi:e_field:src:Project1:uObserver.TObservable.FObservers">
+        <property name="bounds" value="384,201,0,0" />
+      </reference>
+      <reference referencedUin="delphi:e_method:src:Project1:uObserver.TObservable.Create()">
+        <property name="bounds" value="384,201,0,0" />
+      </reference>
+      <reference referencedUin="delphi:e_method:src:Project1:uObserver.TObservable.Attach(uObserver.IObserver)">
+        <property name="bounds" value="384,201,0,0" />
+      </reference>
+      <reference referencedUin="delphi:e_method:src:Project1:uObserver.TObservable.Detach(uObserver.IObserver)">
+        <property name="bounds" value="384,201,0,0" />
+      </reference>
+      <reference referencedUin="delphi:e_method:src:Project1:uObserver.TObservable.NotifyObservers()">
+        <property name="bounds" value="384,201,0,0" />
+      </reference>
+    </reference>
+    <reference referencedUin="design:node:::zkaa70k2zan_n">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="564,381,243,135" />
+      <reference referencedUin="design:link:::adwslb9o9ve_l:zkaa70k2zan_n">
+        <property name="bounds" value="384,201,0,0" />
+        <property name="sourceAnchor" value="621,391" />
+        <property name="targetAnchor" value="621,347" />
+        <property name="bendpoints" value="" />
+        <reference referencedUin="label:@supplierRole:design:link:::adwslb9o9ve_l:zkaa70k2zan_n">
+          <property name="bounds" value="624,351,46,16" />
+        </reference>
+      </reference>
+      <reference referencedUin="design:link:::9d2858uydhs_l:zkaa70k2zan_n">
+        <property name="bounds" value="384,201,0,0" />
+        <property name="sourceAnchor" value="616,393" />
+        <property name="targetAnchor" value="470,275" />
+        <property name="bendpoints" value="" />
+        <reference referencedUin="label:@supplierRole:design:link:::9d2858uydhs_l:zkaa70k2zan_n">
+          <property name="bounds" value="478,262,55,16" />
+        </reference>
+      </reference>
+      <reference referencedUin="design:link:::0kzzokq03li_l:zkaa70k2zan_n">
+        <property name="bounds" value="384,201,0,0" />
+        <property name="sourceAnchor" value="772,401" />
+        <property name="targetAnchor" value="864,355" />
+        <property name="bendpoints" value="" />
+        <reference referencedUin="label:@supplierRole:design:link:::0kzzokq03li_l:zkaa70k2zan_n">
+          <property name="bounds" value="759,340,96,16" />
+        </reference>
+      </reference>
+      <reference referencedUin="design:link:::ykv2u64rv0p_l:zkaa70k2zan_n">
+        <property name="bounds" value="384,201,0,0" />
+        <property name="sourceAnchor" value="564,449" />
+        <property name="targetAnchor" value="513,449" />
+        <property name="bendpoints" value="" />
+        <reference referencedUin="label:@supplierRole:design:link:::ykv2u64rv0p_l:zkaa70k2zan_n">
+          <property name="bounds" value="461,430,105,16" />
+        </reference>
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:uObserver.TCotacao">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="864,301,86,67" />
+      <reference referencedUin="delphi:l_gnt:src:Project1:uObserver.TCotacao:uObserver.TObservable">
+        <property name="bounds" value="384,201,0,0" />
+        <property name="sourceAnchor" value="864,324" />
+        <property name="targetAnchor" value="679,324" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:uObserver.TProduto">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="384,401,129,98" />
+      <reference referencedUin="delphi:e_method:src:Project1:uObserver.TProduto.Update(uObserver.TObservable)">
+        <property name="bounds" value="384,201,0,0" />
+      </reference>
+      <reference referencedUin="delphi:l_impl:src:Project1:uObserver.TProduto:uObserver.IObserver">
+        <property name="bounds" value="384,201,0,0" />
+        <property name="sourceAnchor" value="427,401" />
+        <property name="targetAnchor" value="427,282" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:uObserver.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>
