@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/01/03 17:01:30.000.409,=C:\Users\oscar.filho\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/01/03 17:02:17.000.536,=C:\Users\oscar.filho\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2020/01/03 17:04:16.000.829,C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 02\Principal.pas=C:\Users\oscar.filho\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2020/01/03 17:08:01.000.548,C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\Principal.pas=C:\Users\oscar.filho\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/01/03 17:08:01.000.548,C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\Principal.dfm=C:\Users\oscar.filho\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2020/01/03 17:08:17.000.944,=C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 02\produto.pas</Transaction>
+    <Transaction>2020/01/03 17:08:25.000.121,C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\Principal.pas=</Transaction>
+    <Transaction>2020/01/03 17:08:57.000.291,=C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 02\Principal.pas</Transaction>
+    <Transaction>2020/01/03 17:09:08.000.621,C:\Users\oscar.filho\OneDrive\Curso Dominando a Orientação a Objetos e Componentes em Delphi (Avançado)\POO - 02\Project1.dproj=C:\Users\oscar.filho\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

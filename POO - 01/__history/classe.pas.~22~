@@ -1,0 +1,92 @@
+﻿unit classe;
+
+interface
+
+type
+	TPessoa = class
+  private
+  	FNome : string;
+    FUsuario: string;
+  protected
+    function GetNome : String;
+    procedure SetNome(AValue : String);
+    function GetUsuario: string;
+    procedure SetUsuario(const Value: string);
+  public
+  	property Nome : string read GetNome write SetNome;
+    property Usuario:string read GetUsuario write SetUsuario;
+
+    constructor Create(Sender: TObject);
+
+  end;
+
+  TPessoaFisica = class(TPessoa)
+  private
+    FCPF : string;
+    FRG : string;
+  protected
+    function GetCPF: string;
+    function GetRG: string;
+    procedure SetCPF(const Value: string);
+    procedure SetRG(const Value: string);
+    function GetUsuario: string; override;
+  public
+   	property CPF : string read GetCPF write SetCPF;
+    property RG:string read GetRG write SetRG;
+
+  private
+  end;
+
+implementation
+
+{ TPessoa }
+
+constructor TPessoa.Create(Sender: TObject);
+begin
+  inherited Create();
+  FNome := 'Renato';
+end;
+
+function TPessoa.GetNome: String;
+begin
+	Result := FNome;
+end;
+
+function TPessoa.GetUsuario: string;
+begin
+	Result := FUsuario;
+end;
+
+procedure TPessoa.SetNome(AValue : String);
+begin
+	FNome := AValue;
+end;
+
+procedure TPessoa.SetUsuario(const Value: string);
+begin
+	FUsuario := Value;
+end;
+
+{ TPessoaFisica }
+
+function TPessoaFisica.GetCPF: string;
+begin
+	Result := FCPF;
+end;
+
+function TPessoaFisica.GetRG: string;
+begin
+	Result := FRG;
+end;
+
+procedure TPessoaFisica.SetCPF(const Value: string);
+begin
+	FCPF := Value;
+end;
+
+procedure TPessoaFisica.SetRG(const Value: string);
+begin
+	FRG := Value;
+end;
+
+end.

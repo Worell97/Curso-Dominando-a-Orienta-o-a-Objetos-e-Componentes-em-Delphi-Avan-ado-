@@ -1,0 +1,119 @@
+﻿unit classe;
+
+interface
+uses
+	Vcl.Dialogs;
+type
+	TPessoa = class
+  private
+  	FNome : string;
+    FUsuario: string;
+  protected
+    function GetNome : String; virtual;
+    procedure SetNome(AValue : String); virtual;
+    function GetUsuario: string; virtual;
+    procedure SetUsuario(const Value: string); virtual;
+  public
+  	property Nome : string read GetNome write SetNome;
+    property Usuario:string read GetUsuario write SetUsuario;
+    procedure PronunciarIdioma();overload;
+    procedure PronunciarIdioma(Idioma: String);overload;
+    procedure PronunciarIdioma(Idioma: string ; vezes : Integer);overload;
+    constructor Create(Sender: TObject);
+
+  end;
+
+  TPessoaFisica = class(TPessoa)
+  private
+    FCPF : string;
+    FRG : string;
+  protected
+    function GetCPF: string; virtual;
+    function GetRG: string; virtual;
+    procedure SetCPF(const Value: string); virtual;
+    procedure SetRG(const Value: string); virtual;
+    function GetNome: string; override;
+  public
+   	property CPF : string read GetCPF write SetCPF;
+    property RG:string read GetRG write SetRG;
+
+  private
+  end;
+
+implementation
+
+{ TPessoa }
+
+constructor TPessoa.Create(Sender: TObject);
+begin
+  inherited Create();
+  FNome := 'Renato';
+end;
+
+function TPessoa.GetNome: String;
+begin
+	Result := FNome;
+end;
+
+function TPessoa.GetUsuario: string;
+begin
+	Result := FUsuario;
+end;
+
+procedure TPessoa.PronunciarIdioma(Idioma: string; vezes: Integer);
+var
+	I : Integer;
+begin
+	for I = 0 to vezes do
+    PronunciarIdioma(Idioma);
+end;
+
+procedure TPessoa.PronunciarIdioma;
+begin
+	ShowMessage('Português');
+end;
+
+procedure TPessoa.PronunciarIdioma(Idioma: String);
+begin
+	ShowMessage(Idioma);
+end;
+
+procedure TPessoa.SetNome(AValue : String);
+begin
+	FNome := AValue;
+end;
+
+procedure TPessoa.SetUsuario(const Value: string);
+begin
+	FUsuario := Value;
+end;
+
+{ TPessoaFisica }
+
+function TPessoaFisica.GetCPF: string;
+begin
+	Result := FCPF;
+end;
+
+function TPessoaFisica.GetRG: string;
+begin
+	Result := FRG;
+end;
+
+function TPessoaFisica.GetNome: string;
+begin
+	Result := 'Classe base '+ inherited GetNome +
+  					'Classe filha Pessoa Fisica';
+end;
+
+procedure TPessoaFisica.SetCPF(const Value: string);
+begin
+	FCPF := Value;
+end;
+
+procedure TPessoaFisica.SetRG(const Value: string);
+begin
+	FRG := Value;
+end;
+
+end.
